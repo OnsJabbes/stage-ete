@@ -10,7 +10,7 @@
         <module name="Eureka-Server" />
         <module name="User-Service" />
       </profile>
-      <profile name="Annotation profile for User-Service" enabled="true">
+      <profile name="Annotation profile for Formation-Service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
