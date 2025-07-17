@@ -33,17 +33,25 @@ public class Formation {
 
     private String meetLink; // si enLigne == true
 
+    @Column(name = "date_debut")
     private LocalDateTime dateDebut;
+
+    @Column(name = "date_fin")
     private LocalDateTime dateFin;
 
+    @Column(name = "date_publication")
     private LocalDateTime datePublication;
+
+    @Column(name = "duree_pause_minutes")
+    private Integer dureePauseMinutes;
+
 
     private Long formateurId;
 
     private Long evenementId; // future use
 
     private String titrePause; // pause optionnelle
-    private Integer dureePauseMinutes; // en minutes
+
 
 
     @ManyToOne
